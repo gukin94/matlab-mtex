@@ -1,0 +1,16 @@
+%% tidy up
+close all
+clear
+clc
+
+%% CONSTANTs
+MTEX_FILE_PATH='/Users/gukin/Documents/MATLAB/mtex-5.3'; %CHANGE
+
+%% Setup MTEX
+addpath(MTEX_FILE_PATH);
+startup_mtex
+
+%% Load Example EBSD data
+mtexdata titanium
+
+
